@@ -13,12 +13,14 @@ Install
 Usage
 -----
 
-    require "regexp_sample"
-    
-    using RegexpSample
-    
-    /[a-z0-9]{5}/.sample #=> "nt3r6d"
-    /app[0-9]{5}/.sample(2) #=> ["app94832", "app04535"]
+```ruby
+require "regexp_sample"
+
+using RegexpSample
+
+/[a-z0-9]{5}/.sample #=> "nt3r6"
+/app[0-9]{5}/.sample(2) #=> ["app94832", "app04535"]
+```
     
 
 Copyright
