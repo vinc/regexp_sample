@@ -6,7 +6,7 @@ module RegexpSample
       cs = cs[1...-1] if cs[0] == "["
       set = cs.scan(/(.)(?:-(.))?/).map do |a, b|
         (a..(b || a)).to_a
-      end.flatten.compact
+      end.flatten.uniq
 
       qs = "{1}" if qs.empty?
       m = qs.match(/{(\d+)?(?:\s*,\s*(\d+))?}/)
