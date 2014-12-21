@@ -2,7 +2,7 @@ Gem::Specification.new do |gem|
   gem.name        = "regexp_sample"
   gem.version     = "0.0.1"
   gem.license     = "MIT"
-  gem.summary     = %Q{Add a very limited `Regexp#sample` method}
+  gem.summary     = "Add a very limited `Regexp#sample` method"
   gem.description = gem.summary
   gem.author      = "Vincent Ollivier"
   gem.email       = "v@vinc.cc"
